@@ -1,18 +1,38 @@
-<header class="
-h-screen
-bg-[url('/Volumes/Data/Documents/FrontendDocs/sunnyside-agency-landing-page/sunnyside-landing-page/public/images/desktop/image-header.jpg')]
-bg-cover"
+<header
+	class="h-screen bg-[url('../../public/images/desktop/image-header.jpg')] bg-cover bg-no-repeat max-sm:h-screen max-sm:bg-center max-sm:bg-cover max-sm:bg-[url('../../public/images/mobile/image-header.jpg')]"
 >
-<div>
-    <div>
-        <img src="/Volumes/Data/Documents/FrontendDocs/sunnyside-agency-landing-page/sunnyside-landing-page/public/images/logo.svg"
-        class="w-40">
-    </div>
-    <nav>
-        <div></div>
-        <div></div>
-        <div></div>
-        <button></button>
-    </nav>
-</div>
+	<div
+		class="flex content-center max-sm:h-28 h-32 p-8 w-full max-sm:content-center"
+	>
+		<div class="h-auto flex items-center justify-center">
+			<img src="../../public/images/logo.svg" class="w-48 max-sm:w-28" />
+		</div>
+		<nav
+			class="flex justify-end h-18 items-center flex-1 text-white max-sm:invisible max-sm:hidden"
+		>
+			<div class="px-8">About</div>
+			<div class="px-8">Services</div>
+			<div class="px-8">Projects</div>
+			<div class="w-28 p-2 text-center text-black rounded-full bg-white">
+				Contact
+			</div>
+		</nav>
+		<img
+			src="../../public/images/icon-hamburger.svg"
+			class="w-6 h-6 md:invisible max-sm:absolute left-80 top-10"
+		/>
+	</div>
+	<div
+		class="flex flex-col items-center justify-center h-96 text-white max-sm:items-center"
+	>
+		<h1
+			class="text-5xl font-bold tracking-widest uppercase pb-12 max-sm:text-center max-sm:tracking-widest max-sm:pb-4 max-sm:leading-snug"
+		>
+			we are creatives
+		</h1>
+		<img
+			src="../../public/images/icon-arrow-down.svg"
+			class="h-32 w-10 mt-16 max-sm:h-44 max-sm:w-14"
+		/>
+	</div>
 </header>
